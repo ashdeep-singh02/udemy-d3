@@ -4,6 +4,8 @@
 *    2.8 - Activity: Your first visualization!
 */
 
+// Codespace connected
+
 const svg = d3.select("#chart-area").append("svg")
   .attr("width", 400)
   .attr("height", 400);
