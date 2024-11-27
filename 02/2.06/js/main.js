@@ -10,6 +10,7 @@ const svg = d3.select("#chart-area").append("svg")
 	.attr("width", 400)
 	.attr("height", 400)
 
+// Binds the data array to placeholder circle elements in the svg.
 const circles = svg.selectAll("circle")
 	.data(data)
 

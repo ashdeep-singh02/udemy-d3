@@ -4,6 +4,7 @@
 *    2.5 - Activity: Adding SVGs to the screen
 */
 
+// Append a line, rect, and ellipse to a div 
 const svg = d3.select("#chart-area").append("svg")
 	.attr("width", 500)
 	.attr("height", 400)
